@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel = "stylesheet" href = "./style.css">
+</head>
+<body>
+    <div class="content">    
+        <div id="picture">
+            <div class="picTitle">
+                <div class="textcont">
+                    <img src="odin-lined.png" alt="odin-logo">
+                    <h1 id="odin">Odin</h1>
+                </div>
+                
+
+            </div>
+            <div id="credit">Photo by <a class="credits" target="_blank" href="https://unsplash.com/@aerialpicbymax?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Max</a> on <a class="credits" target="_blank" href="https://unsplash.com/t/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </div>
+                     
+            
+            
+        </div>
+        <div id="right">
+            <div id="quote">
+                <div class="quotes">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</div>
+                <div class="quotes">Sign up <em>now</em> to get started.</div>
+                <div class="quotes">You <em>know</em> you want to.</div>
+            </div>
+
+            <div id="form">            
+                <form action="/sign-up-page" method="post">                
+                    <legend id="titleForm">Let's do this!</legend>
+
+                    <div class="forms">
+                        <div class="column">
+                            <div class="formInfo">
+                                <label for="firstName">First Name:</label> 
+                                <input type="text" id="firstName" name="firstName">
+                            </div>
+                            <div class="formInfo">
+                                <label for="email">Email:</label> 
+                                <input type="email" id="email" name="email">
+                            </div>
+                            <div class="formInfo">
+                                <label for="password">Password:</label> 
+                                <input type="password" id="password" name="password">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="formInfo">
+                                <label for="lastName">Last Name:</label> 
+                                <input type="text" id="lastName" name="lastName">
+                            </div>
+                            <div class="formInfo">
+                                <label for="phoneNumber">Phone Number:</label> 
+                                <input type="number" id="phoneNumber" name="phoneNumber">
+                            </div>
+                            <div class="formInfo">
+                                <label for="confirmPassword">Confirm password:</label> 
+                                <input type="password" id="confirmPassword" name="confirmPassword">
+                            </div>  
+
+
+                        </div>
+
+                    </div>
+                      
+                </form>            
+            </div>
+
+            <div id="sign">
+                <button id="createAcc">Create Account</button>
+                <p>Already have an account? <a class="logIn" href="https://www.google.com.br" target="_blank">Log In</a></p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
